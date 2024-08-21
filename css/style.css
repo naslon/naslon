@@ -97,3 +97,8 @@ h3 {
   text-align: center;
   font-weight: bold;
 }
+#complemento {
+  width: 198.3vh;
+  height: 75vh;
+  background-color: #808080;
+}
