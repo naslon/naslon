@@ -1,0 +1,942 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.tudo {
+	display: flex;
+	width: 100%;
+	height: 338vh;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+/* Menu -------------------------------------------------------*/
+
+#menucomplemento {
+	display: flex;
+	width: 100%;
+	height: 8vh;
+}
+.menu {
+	background-color: #808080;
+	width: 100%;
+	height: 8vh;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	position: fixed;
+	z-index: 1;
+}
+.logonaslon {
+	display: flex;
+	width: 8vh;
+	height: 8vh;
+	cursor: pointer;
+	transition: all 0.1s ease-in;
+}
+.item1 {
+	display: flex;
+	width: 20vh;
+	height: 5vh;
+	background-color: #808080;
+	align-items: center;
+	justify-content: center;
+	font-size: 15px;
+	font-family: sans-serif;
+	cursor: pointer;
+}
+.item2 {
+	display: flex;
+	width: 20vh;
+	height: 5vh;
+	background-color: #808080;
+	align-items: center;
+	justify-content: center;
+	font-size: 15px;
+	font-family: sans-serif;
+	cursor: pointer;
+}
+.item3 {
+	display: flex;
+	width: 20vh;
+	height: 5vh;
+	background-color: #808080;
+	align-items: center;
+	justify-content: center;
+	font-size: 15px;
+	font-family: sans-serif;
+	cursor: pointer;
+}
+.item4 {
+	display: flex;
+	width: 20vh;
+	height: 5vh;
+	background-color: #808080;
+	align-items: center;
+	justify-content: center;
+	font-size: 15px;
+	font-family: sans-serif;
+	cursor: pointer;
+}
+.item5 {
+	display: flex;
+	width: 20vh;
+	height: 5vh;
+	background-color: #808080;
+	align-items: center;
+	justify-content: center;
+	font-size: 15px;
+	font-family: sans-serif;
+	cursor: pointer;
+}
+.item6 {
+	display: flex;
+	width: 20vh;
+	height: 5vh;
+	background-color: #808080;
+	align-items: center;
+	justify-content: center;
+	font-size: 15px;
+	font-family: sans-serif;
+	cursor: pointer;
+}
+.pesquisar {
+	display: flex;
+	background-color: #808080;
+	width: 5vh;
+	height: 5vh;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
+#pesquisa {
+	display: none;
+}
+.pesquisa {
+	background: none;
+	border-left: 0;
+	border-top: 0;
+	border-right: 0;
+	border-bottom-color: black;
+	outline: 0;
+	color: black;
+}
+
+.pesquisa::placeholder {
+	color: black;
+}
+#lupa {
+	width: 20px;
+	height: 20px;
+	display: flex;
+	cursor: pointer;
+	transition: all 0.1s ease-in;
+}
+
+/* Página Inicial ----------------------------------------------------- */
+
+.conteudo {
+	display: flex;
+	padding-top: 8vh;
+	width: 100%;
+	height: 92vh;
+	background-color: black;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.imagem {
+	display: flex;
+	width: 100vh;
+	height: 80vh;
+	background-color: black;
+}
+.informacao {
+	display: flex;
+	flex-direction: column;
+	width: 100vh;
+	height: 80vh;
+	background-color: black;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+.informacao1 {
+	display: flex;
+	flex-direction: column;
+	width: 100vh;
+	height: 80vh;
+	background-color: black;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+	font-size: 30px;
+	font-family: sans-serif;
+	color: white;
+}
+.logogabe {
+	display: flex;
+	width: 30vh;
+	height: 30vh;
+	background-color: black;
+}
+#gabe {
+	height: 30vh;
+	width: 30vh;
+}
+.texto {
+	display: flex;
+	width: 70vh;
+	height: 50vh;
+	background-color: black;
+	align-items: center;
+	justify-content: center;
+	font-size: 30px;
+	text-align: center;
+	font-family: sans-serif;
+	color: white;
+}
+.botao {
+	display: flex;
+	width: 20vh;
+	height: 7vh;
+	border: 1px solid white;
+	border-radius: 5px;
+	color: white;
+	font-family: sans-serif;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	transition: all 0.2s ease-in;
+}
+
+.complemento {
+	display: flex;
+	width: 100%;
+	height: 1vh;
+	background-color: black;
+}
+
+.complemento1 {
+	display: flex;
+	width: 100%;
+	height: 2vh;
+	background-color: black;
+}
+.footer {
+	display: flex;
+	width: 100%;
+	height: 35vh;
+	background-color: #808080;
+	font-family: sans-serif;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+.footer1 {
+	display: flex;
+	width: 50%;
+	height: 35vh;
+	background-color: #808080;
+	font-family: sans-serif;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+.imagem2 {
+	display: flex;
+	width: 35vh;
+	height: 35vh;
+	background-color: #808080;
+}
+.slogan {
+	display: flex;
+	width: 65vh;
+	height: 35vh;
+	font-family: sans-serif;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+#extras1 {
+	display: flex;
+	width: 65vh;
+	height: 17.5vh;
+	background-color: #808080;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+#extras2 {
+	display: flex;
+	width: 65vh;
+	height: 17.5vh;
+	font-size: 23px;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+.footer2 {
+	display: flex;
+	flex-direction: row;
+	width: 50%;
+	height: 35vh;
+	background-color: #808080;
+}
+.foot0 {
+	display: flex;
+	width: 50vh;
+	height: 35vh;
+	background-color: #808080;
+	font-family: sans-serif;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.foot1 {
+	display: flex;
+	width: 50%;
+	height: 35vh;
+	background-color: #808080;
+	font-family: sans-serif;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+#redes {
+	display: flex;
+	width: 50vh;
+	height: 8.75vh;
+	background-color: #808080;
+	cursor: pointer;
+}
+
+#extras {
+	display: flex;
+	width: 50vh;
+	height: 4.375vh;
+	background-color: #808080;
+	color: white;
+}
+#link {
+	color: silver;
+	text-decoration: none;
+}
+
+/* Página GABE ------------------------------------------------*/
+
+.tudo1 {
+	display: flex;
+	width: 100%;
+	height: 220vh;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.conteudo2 {
+	display: flex;
+	width: 100%;
+	height: 178vh;
+	background-color: black;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.prototipo {
+	display: flex;
+	width: 55%;
+	height: 100vh;
+	background-color: black;
+	justify-content: center;
+}
+.prototipo1 {
+	animation-name: DeslizarParaDireita;
+	animation-duration: 2s;
+	animation-timing-function: ease;
+	z-index: 0;
+}
+.bloco {
+	display: flex;
+	width: 45%;
+	height: 100vh;
+	background-color: black;
+	align-items: center;
+}
+.logogabe1 {
+	display: flex;
+	width: 100%;
+	height: 70vh;
+	justify-content: center;
+	background-color: black;
+}
+.logogabe2 {
+	animation-name: Rodar;
+	animation-duration: 2s;
+	animation-timing-function: ease;
+	z-index: 0;
+}
+.texto2 {
+	display: flex;
+	width: 70%;
+	height: 30vh;
+	font-family: sans-serif;
+	color: white;
+	font-size: 20px;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	line-height: 1.5;
+}
+
+/* Página WEPT ------------------------------------------------*/
+
+.tudo5 {
+	display: flex;
+	background-color: red;
+	width: 100%;
+	height: 223vh;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.conteudo6 {
+	display: flex;
+	width: 100%;
+	height: 183vh;
+	background-color: black;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.prototipowept {
+	display: flex;
+	width: 55%;
+	height: 100vh;
+	background-color: black;
+	justify-content: center;
+}
+.prototipowept1 {
+	animation-name: DeslizarParaDireita;
+	animation-duration: 2s;
+	animation-timing-function: ease;
+	z-index: 0;
+}
+.bloco1 {
+	display: flex;
+	width: 45%;
+	height: 100vh;
+	background-color: black;
+	align-items: center;
+}
+.logowept1 {
+	display: flex;
+	width: 100%;
+	height: 70vh;
+	justify-content: center;
+	background-color: black;
+}
+.logowept2 {
+	animation-name: Rodar;
+	animation-duration: 2s;
+	animation-timing-function: ease;
+	z-index: 0;
+}
+.texto3 {
+	display: flex;
+	width: 70%;
+	height: 50vh;
+	background-color: black;
+	font-family: sans-serif;
+	color: white;
+	font-size: 20px;
+	letter-spacing: 3px;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+/* Página Nanotecnologia -----------------------------------------------*/
+.tudo8 {
+	display: flex;
+	background-color: red;
+	width: 100%;
+	height: 233vh;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.conteudo8 {
+	display: flex;
+	width: 100%;
+	height: 193vh;
+	background-color: black;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.texto4 {
+	display: flex;
+	width: 70%;
+	height: 190vh;
+	background-color: black;
+	font-family: sans-serif;
+	color: white;
+	font-size: 20px;
+	letter-spacing: 3px;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	flex-direction: column;
+}
+
+/* Página Sobre -----------------------------------------------------*/
+
+.tudo9 {
+	display: flex;
+	background-color: red;
+	width: 100%;
+	height: 345vh;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.conteudo9 {
+	display: flex;
+	width: 100%;
+	height: 315vh;
+	background-color: white;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.referencia1 {
+	display: flex;
+	width: 90vh;
+	height: 90vh;
+	background-color: blue;
+}
+
+.referencia2 {
+	display: flex;
+	width: 90vh;
+	height: 90vh;
+	background-color: yellow;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.logonaslon2 {
+	display: flex;
+	width: 60vh;
+	height: 23vh;
+	background-color: orange;
+}
+
+.logonaslon3 {
+	width: 60vh;
+	height: 60vh;	
+}
+
+.texto5 {
+	display: flex;
+	width: 90vh;
+	height: 80vh;
+	background-color: red;
+}
+
+.referencia3 {
+	display: flex;
+	width: 90vh;
+	height: 90vh;
+	background-color: blue;
+}
+
+.referencia4 {
+	display: flex;
+	width: 90vh;
+	height: 90vh;
+	background-color: yellow;
+	justify-content: center;
+	align-items: center;
+}
+
+.fotografia {
+	display: flex;
+	width: 55vh;
+	height: 55vh;
+	background-color: red;
+}
+
+.referencia5 {
+	display: flex;
+	width: 90vh;
+	height: 90vh;
+	background-color: blue;
+}
+
+.referencia6 {
+	display: flex;
+	width: 90vh;
+	height: 90vh;
+	background-color: yellow;
+}
+/* Página Contatos -----------------------------------------------------*/
+
+.tudonada {
+	display: flex;
+	background-color: red;
+	width: 100%;
+	height: 110vh;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.nada {
+	display: flex;
+	width: 100%;
+	height: 80vh;
+	background-color: black;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.nadinha {
+	display: flex;
+	width: 70%;
+	height: 50vh;
+	background-color: black;
+	font-family: sans-serif;
+	color: white;
+	font-size: 50px;
+	letter-spacing: 3px;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	flex-direction: column;
+}
+
+/* Página Contatos -----------------------------------------------------*/
+
+.tudo2 {
+	display: flex;
+	background-color: red;
+	width: 100%;
+	height: 100vh;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.conteudo3 {
+	display: flex;
+	width: 100%;
+	height: 57vh;
+	background-color: black;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+}
+.email {
+	display: flex;
+	width: 150vh;
+	height: 15vh;
+	background-color: black;
+	font-family: sans-serif;
+	color: gray;
+	font-size: 60px;
+	align-items: center;
+	justify-content: center;
+}
+.email1 {
+	display: flex;
+	width: 70%;
+	height: 40vh;
+	background-color: black;
+	font-family: sans-serif;
+	color: gray;
+	font-size: 20px;
+	letter-spacing: 3px;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+.contato {
+	display: flex;
+	width: 200vh;
+	height: 40vh;
+	background-color: red;
+}
+
+/* Página Politica -----------------------------------------------------*/
+
+.conteudo4 {
+	display: flex;
+	width: 100%;
+	height: 285vh;
+	background-color: black;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+}
+.politica {
+	display: flex;
+	width: 150vh;
+	height: 15vh;
+	background-color: black;
+	font-family: sans-serif;
+	color: white;
+	font-size: 60px;
+	align-items: center;
+	justify-content: center;
+}
+.politica1 {
+	display: flex;
+	width: 70%;
+	height: 260vh;
+	background-color: black;
+	font-family: sans-serif;
+	color: gray;
+	font-size: 20px;
+	letter-spacing: 3px;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+.tudo3 {
+	display: flex;
+	background-color: red;
+	width: 100%;
+	height: 328vh;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+/* Página Termos -----------------------------------------------------*/
+
+.conteudo5 {
+	display: flex;
+	width: 100%;
+	height: 330vh;
+	background-color: black;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+}
+.termo {
+	display: flex;
+	width: 150vh;
+	height: 15vh;
+	background-color: black;
+	font-family: sans-serif;
+	color: white;
+	font-size: 60px;
+	align-items: center;
+	justify-content: center;
+}
+.termo1 {
+	display: flex;
+	width: 70%;
+	height: 310vh;
+	background-color: black;
+	font-family: sans-serif;
+	color: gray;
+	font-size: 20px;
+	letter-spacing: 3px;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+.tudo4 {
+	display: flex;
+	background-color: red;
+	width: 100%;
+	height: 373vh;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.fonte2 {
+	text-align: initial;
+}
+
+/* Página Local -----------------------------------------------*/
+
+.conteudo7 {
+	display: flex;
+	width: 100%;
+	height: 80vh;
+	background-color: black;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+.tudo6 {
+	display: flex;
+	background-color: red;
+	width: 100%;
+	height: 115vh;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+/* Página trabalhe ---------------------------------------------*/
+
+.tudo7 {
+	display: flex;
+	width: 100%;
+	height: 230vh;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+#menucomplemento2 {
+	display: flex;
+	width: 100%;
+	height: 200vh;
+	background-color: black;
+	justify-content: center;
+	align-items: center;
+}
+
+.formulario-trabalhe {
+	display: flex;
+	width: 1100px;
+	height: 1200px;
+	margin-top: 70px;
+}
+
+/* Hovers -----------------------------------------------------*/
+
+#lupa:hover {
+	filter: drop-shadow(0px 0px 5px silver);
+}
+
+#link:hover {
+	color: white;
+}
+
+#link:active {
+	color: white;
+}
+
+#imagem1:hover {
+	filter: drop-shadow(0px 0px 5px silver);
+}
+
+#imagem1:active {
+	filter: drop-shadow(0px 0px 8px white);
+}
+
+.logonaslon:hover {
+	filter: drop-shadow(0px 0px 5px silver);
+}
+
+.logonaslon:active {
+	filter: drop-shadow(0px 0px 15px white);
+}
+
+.botao:hover {
+	box-shadow: 0px 0px 10px silver;
+}
+
+.botao:active {
+	box-shadow: 0px 0px 15px white;
+}
+
+.item1:hover{
+	color: white;
+}
+
+.item1:active{
+	color: silver;
+}
+
+.item2:hover{
+	color: white;
+}
+
+.item2:active{
+	color: silver;
+}
+
+.item3:hover{
+	color: white;
+}
+
+.item3:active{
+	color: silver;
+}
+
+.item4:hover{
+	color: white;
+}
+
+.item4:active{
+	color: silver;
+}
+
+.item5:hover{
+	color: white;
+}
+
+.item5:active{
+	color: silver;
+}
+
+.item6:hover{
+	color: white;
+}
+
+.item6:active{
+	color: silver;
+}
+
+/* Keyframes -----------------------------------------------------*/
+
+@keyframes DeslizarParaDireita {
+	from {
+		transform: translateX(-800px);
+	}
+	to {
+		transform: translateX(0);
+	}
+}
+
+@keyframes Rodar {
+	from {
+		transform: rotate3d(70, 70, 1, 120deg);	}
+	to {
+		transform: translateX(0);
+	}
+}
+
+/* Media Queries Celulares -------------------------------------------------------*/
+
+@media(max-width: 450px){
+
+}
+
+/* Media Queries Tablets -------------------------------------------------------*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+}
